@@ -1,0 +1,3877 @@
+{
+	"id": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+	"name": "ProjectTR-api",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "match",
+			"description": "",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"order": [
+				"2b514974-e857-66c3-a0aa-f7ed79704d78",
+				"28ee8eb4-7437-378c-bf1f-f6d355a95579",
+				"bda3b698-83ba-dfa8-2315-8615ce14508a",
+				"396ef97b-ced4-af60-bcf8-ed9065c2624c",
+				"fa66e065-42aa-19cf-c4c3-1c326e1e5613"
+			],
+			"owner": "246516",
+			"folders_order": [],
+			"id": "2c153811-8487-2171-cb7c-b53752e3d5dc"
+		},
+		{
+			"name": "user",
+			"description": "",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"order": [
+				"30045ec6-97d4-9b96-c75a-af2ce8f3789d",
+				"59d4a1ec-2f81-f77b-1583-3dedd3c35dd9",
+				"b6b2b3ef-521b-155c-4a9a-7850a2e69726",
+				"47aa804d-ffb3-8f26-2bd6-dc3567f9e368",
+				"ce1439dd-d005-ed70-f332-8c65a1cbf599"
+			],
+			"owner": "246516",
+			"folders_order": [],
+			"id": "034ceda0-1cd2-3557-db78-65a9847749e0"
+		},
+		{
+			"name": "user_hero",
+			"description": "",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"order": [
+				"ea3915e5-fd02-8d0a-5613-a1957446bf0e",
+				"0618db73-29f3-9856-200f-7ec8fb23a922",
+				"1f222294-8cb8-f143-bcc3-216abd200c16",
+				"8057aea2-752c-e8f4-018e-5476fae498a2",
+				"59720eba-b10b-df01-dab7-da0c560fb470"
+			],
+			"owner": "246516",
+			"folders_order": [],
+			"id": "c533715e-586f-4933-3231-2e21c9dc260c"
+		},
+		{
+			"name": "user_squad",
+			"description": "",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"order": [
+				"29d0eb69-95c3-f325-ef82-7cad7e36e906",
+				"486528a1-defd-4ce3-45b1-602096ba9556",
+				"c7d3cb8a-764b-af36-083d-64e213118443",
+				"376e2a35-47e1-213b-b0e9-3c24d4fcc561",
+				"e3015089-21d6-e73f-275a-4503c49ea2d1"
+			],
+			"owner": "246516",
+			"folders_order": [],
+			"id": "2880fdd8-376e-91de-004a-bf8601aa81b3"
+		}
+	],
+	"folders_order": [
+		"034ceda0-1cd2-3557-db78-65a9847749e0",
+		"2c153811-8487-2171-cb7c-b53752e3d5dc",
+		"2880fdd8-376e-91de-004a-bf8601aa81b3",
+		"c533715e-586f-4933-3231-2e21c9dc260c"
+	],
+	"timestamp": 1668302131502,
+	"owner": "246516",
+	"public": false,
+	"requests": [
+		{
+			"id": "0618db73-29f3-9856-200f-7ec8fb23a922",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/1/hero/4/",
+			"folder": "c533715e-586f-4933-3231-2e21c9dc260c",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668469289465,
+			"name": "delete",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "0618db73-29f3-9856-200f-7ec8fb23a922",
+					"id": "1016d66f-27be-55d5-a625-a3ce958e08c6",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "1f222294-8cb8-f143-bcc3-216abd200c16",
+			"headers": "Authorization: Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/1/hero/",
+			"folder": "c533715e-586f-4933-3231-2e21c9dc260c",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "access_token",
+					"value": "xyz1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "U1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "server_secret",
+					"value": "zeppelin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "admin",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668467789729,
+			"name": "select list",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "1f222294-8cb8-f143-bcc3-216abd200c16",
+					"id": "b9bb5d8a-3a40-c027-b526-62461c68eb40",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "28ee8eb4-7437-378c-bf1f-f6d355a95579",
+			"headers": "",
+			"headerData": [],
+			"url": "http://{{host}}/api/v1/match/1/",
+			"folder": "2c153811-8487-2171-cb7c-b53752e3d5dc",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "access_token",
+					"value": "xyz1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "U1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "server_secret",
+					"value": "zeppelin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "admin",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668470733724,
+			"name": "select",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "28ee8eb4-7437-378c-bf1f-f6d355a95579",
+					"id": "0cc6a3b3-36ca-d733-17e5-adf0e4e5b9b5",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "29d0eb69-95c3-f325-ef82-7cad7e36e906",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/1/squad/3/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "zzz",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "zzz",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668469816670,
+			"name": "[NoUse] put",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "29d0eb69-95c3-f325-ef82-7cad7e36e906",
+					"id": "f3913c0a-bffe-5e06-2c09-d5d1249a5a2c",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "2b514974-e857-66c3-a0aa-f7ed79704d78",
+			"headers": "Authorization: Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:29060/api/v1/match/",
+			"folder": "2c153811-8487-2171-cb7c-b53752e3d5dc",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "access_token",
+					"value": "xyz1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "U1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "server_secret",
+					"value": "zeppelin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "admin",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668470565183,
+			"name": "select list",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "2b514974-e857-66c3-a0aa-f7ed79704d78",
+					"id": "d759cb49-662a-7967-1d30-1a6c4509cb81",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "30045ec6-97d4-9b96-c75a-af2ce8f3789d",
+			"headers": "Authorization: Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:29060/api/v1/user/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "access_token",
+					"value": "xyz1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "U1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "server_secret",
+					"value": "zeppelin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "admin",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668305628585,
+			"name": "select list",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "843acf02-a33c-c4bb-d742-c07b9212e4b0",
+					"id": "8bcfebdc-a6fe-7607-cef3-7ee28a0b75a2",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z"
+				}
+			]
+		},
+		{
+			"id": "376e2a35-47e1-213b-b0e9-3c24d4fcc561",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/1/squad/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "hero_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pos_x",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pos_y",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668469509887,
+			"name": "post",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "376e2a35-47e1-213b-b0e9-3c24d4fcc561",
+					"id": "09945a04-24ea-af51-a53e-ff7f88871b3f",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "396ef97b-ced4-af60-bcf8-ed9065c2624c",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/match/3/",
+			"folder": "2c153811-8487-2171-cb7c-b53752e3d5dc",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "zzz",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "zzz",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668470593394,
+			"name": "put",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "396ef97b-ced4-af60-bcf8-ed9065c2624c",
+					"id": "dc6c1342-fa6e-5326-d96f-a80655cca41b",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "47aa804d-ffb3-8f26-2bd6-dc3567f9e368",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/3/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "zzz",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "zzz",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668464197350,
+			"name": "put",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "47aa804d-ffb3-8f26-2bd6-dc3567f9e368",
+					"id": "e67dbf08-82cb-5080-f485-e08f43ca8a91",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "486528a1-defd-4ce3-45b1-602096ba9556",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/1/squad/3/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668469677387,
+			"name": "delete",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "486528a1-defd-4ce3-45b1-602096ba9556",
+					"id": "ec9d838f-2142-0586-658b-c1cb47cdbc4a",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "59720eba-b10b-df01-dab7-da0c560fb470",
+			"headers": "",
+			"headerData": [],
+			"url": "http://{{host}}/api/v1/user/1/hero/1/",
+			"folder": "c533715e-586f-4933-3231-2e21c9dc260c",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "access_token",
+					"value": "xyz1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "U1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "server_secret",
+					"value": "zeppelin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "admin",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668467985305,
+			"name": "[NoUse] select",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "59720eba-b10b-df01-dab7-da0c560fb470",
+					"id": "9b316dd4-0e96-00b4-4d7e-601b01f34775",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "59d4a1ec-2f81-f77b-1583-3dedd3c35dd9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://{{host}}/api/v1/user/2/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "access_token",
+					"value": "xyz1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "U1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "server_secret",
+					"value": "zeppelin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "admin",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668464179901,
+			"name": "select",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "59d4a1ec-2f81-f77b-1583-3dedd3c35dd9",
+					"id": "f40be889-5a94-0b72-b74e-5206b87491fd",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "8057aea2-752c-e8f4-018e-5476fae498a2",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/1/hero/",
+			"folder": "c533715e-586f-4933-3231-2e21c9dc260c",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "hero_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668468065829,
+			"name": "post",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "8057aea2-752c-e8f4-018e-5476fae498a2",
+					"id": "b217c798-c602-c713-ed73-4e8da384e298",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "b6b2b3ef-521b-155c-4a9a-7850a2e69726",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "bbb",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "bbb",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668464189309,
+			"name": "post",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "b6b2b3ef-521b-155c-4a9a-7850a2e69726",
+					"id": "57170bd2-6893-9842-1e85-97edc14771cc",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "bda3b698-83ba-dfa8-2315-8615ce14508a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/match/",
+			"folder": "2c153811-8487-2171-cb7c-b53752e3d5dc",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "host_user_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "guest_user_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "channel_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668470641680,
+			"name": "post",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "bda3b698-83ba-dfa8-2315-8615ce14508a",
+					"id": "6d574e94-dd33-4767-2a76-4540cce10fd1",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "c7d3cb8a-764b-af36-083d-64e213118443",
+			"headers": "Authorization: Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/1/squad/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "access_token",
+					"value": "xyz1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "U1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "server_secret",
+					"value": "zeppelin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "admin",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668469363551,
+			"name": "select list",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "c7d3cb8a-764b-af36-083d-64e213118443",
+					"id": "1cde95ca-34ea-18d9-698a-d4d7f0e3ffa9",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "ce1439dd-d005-ed70-f332-8c65a1cbf599",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/5/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668464209912,
+			"name": "delete",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "ce1439dd-d005-ed70-f332-8c65a1cbf599",
+					"id": "48c805c7-9e20-5564-a8f1-b48a3ef36fb7",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "e3015089-21d6-e73f-275a-4503c49ea2d1",
+			"headers": "",
+			"headerData": [],
+			"url": "http://{{host}}/api/v1/user/1/squad/1/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "access_token",
+					"value": "xyz1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "U1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "server_secret",
+					"value": "zeppelin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "admin",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668469380169,
+			"name": "[NoUse] select",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "e3015089-21d6-e73f-275a-4503c49ea2d1",
+					"id": "45de7696-a9e6-2356-e6b2-34cf32b20bf2",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "ea3915e5-fd02-8d0a-5613-a1957446bf0e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/user/hero/3/",
+			"folder": "c533715e-586f-4933-3231-2e21c9dc260c",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "zzz",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "zzz",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668469850845,
+			"name": "[NoUse] put",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "ea3915e5-fd02-8d0a-5613-a1957446bf0e",
+					"id": "1a5ca62b-a4f1-0403-c42e-7b09ce23d1ce",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		},
+		{
+			"id": "fa66e065-42aa-19cf-c4c3-1c326e1e5613",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{host}}/api/v1/match/5/",
+			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668470598945,
+			"name": "delete",
+			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
+			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
+			"responses": [
+				{
+					"owner": 0,
+					"lastUpdatedBy": "631643",
+					"lastRevision": 277278564,
+					"request": "fa66e065-42aa-19cf-c4c3-1c326e1e5613",
+					"id": "188d472a-486f-536b-9ac5-e1758af639ac",
+					"name": "Success",
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": "1855",
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Headers",
+							"key": "Access-Control-Allow-Headers",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "",
+							"description": ""
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": ""
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": ""
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": ""
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 31 Mar 2016 11:12:16 GMT",
+							"description": ""
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "nginx/1.6.2",
+							"description": ""
+						},
+						{
+							"name": "Server-Authorization",
+							"key": "Server-Authorization",
+							"value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+							"description": ""
+						},
+						{
+							"name": "Vary",
+							"key": "Vary",
+							"value": "Accept-Encoding",
+							"description": ""
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Sails <sailsjs.org>",
+							"description": ""
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": ""
+						}
+					],
+					"cookies": [
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.06945,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "getpostmanlogin",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "yes"
+						},
+						{
+							"domain": ".getpostman.com",
+							"expirationDate": 1460717668.069509,
+							"hostOnly": false,
+							"httpOnly": false,
+							"name": "postman.sid",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"storeId": "0",
+							"value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6"
+						},
+						{
+							"domain": "echo.getpostman.com",
+							"hostOnly": true,
+							"httpOnly": true,
+							"name": "sails.sid",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"storeId": "0",
+							"value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4"
+						}
+					],
+					"mime": "",
+					"text": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": "-1",
+					"version": null,
+					"requestObject": "{\"url\":\"https://echo.getpostman.com/auth/hawk\",\"headers\":[{\"key\":\"Authorization\",\"type\":\"text\",\"name\":\"Authorization\",\"value\":\"Hawk id=\\\"dh37fgj492je\\\", ts=\\\"1459422734\\\", nonce=\\\"XiwiCU\\\", mac=\\\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\\\"\"}],\"data\":[{\"key\":\"access_token\",\"value\":\"xyz1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"id\",\"value\":\"U1\",\"type\":\"text\",\"enabled\":true},{\"key\":\"server_secret\",\"value\":\"zeppelin\",\"type\":\"text\",\"enabled\":true},{\"key\":\"admin\",\"value\":\"true\",\"type\":\"text\",\"enabled\":true}],\"method\":\"GET\",\"dataMode\":\"params\"}",
+					"createdAt": "2016-05-25T12:29:57.000Z",
+					"updatedAt": "2016-05-25T12:29:58.000Z",
+					"write": true
+				}
+			]
+		}
+	]
+}
