@@ -1,0 +1,18 @@
+Flask==2.0.3
+Flask-SQLAlchemy==2.5.1
+# Jinja2==3.0.3
+# MarkupSafe==2.1.0
+SQLAlchemy==1.4.31
+# Werkzeug==2.0.3
+# click==8.0.4
+# greenlet==1.1.2
+# itsdangerous==2.1.0
+mysqlclient
+# Flask-SQLAlchemy
+# SQLAlchemy==1.0.4
+#mysql-python
+
+requests
+pandas
+numpy
+pymysql
