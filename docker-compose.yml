@@ -1,0 +1,46 @@
+version: '2.4'
+services:
+
+  # flask app
+  python:
+    container_name: python
+    build: ./docker/python
+    ports:
+      - 8080:8080
+    volumes:
+      # host의 경로를 컨테이너 내부와 마운트
+      - ./apps:/apps
+    working_dir: /apps
+    environment:
+      - DJANGO_SETTINGS_MODULE=${DJANGO_SETTINGS_MODULE}
+    depends_on:
+      mysql:
+        condition: service_healthy
+    restart: always
+
+  # DBMS
+  mysql:
+    build: docker/mysql
+    platform : linux/amd64
+    container_name: mysql
+    ports:
+      - 3306:3306
+    volumes:
+      - data-volume:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=pjt!@#123
+      - MYSQL_DATABASE=project_tr
+    healthcheck:
+      test: "exit 0"
+    restart: always
+
+# DBMS 저장용 볼륨 생성.
+volumes:
+  data-volume:
+    driver: local
+    driver_opts:
+      type: none
+      # 경로를 바꿀 필요가 있음.
+      device: /home/ec2-user/deploy/ProjectTR-api/db
+      #device: $PWD/db
+      o: bind
