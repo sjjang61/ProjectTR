@@ -1,9 +1,9 @@
 import json
 from flask import request, jsonify, make_response
 from . import squad
-from apps.common.dataUtils import obj_to_dict
-from apps.model import User, UserSquad
-from apps.database import db_session
+from common.dataUtils import obj_to_dict
+from model import User, UserSquad
+from database import db_session
 
 # user object -> dictionary
 def get_user_squad_dict( squad ):

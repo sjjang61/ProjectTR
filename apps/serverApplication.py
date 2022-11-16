@@ -4,10 +4,10 @@
 # 2) https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
 
 from flask import Flask, render_template, request
-from apps.user import user
-from apps.user_squad import squad
-from apps.user_hero import hero
-from apps.match import match
+from user import user
+from user_squad import squad
+from user_hero import hero
+from match import match
 
 # 1) Create App
 app = Flask(__name__, static_url_path='/static')

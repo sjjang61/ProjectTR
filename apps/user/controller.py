@@ -3,9 +3,9 @@ import json, logging
 from flask import request, jsonify, make_response
 
 from . import user
-from apps.database import db_session
-from apps.model import User, UserHero, UserSquad
-from apps.common.dataUtils import obj_to_dict
+from database import db_session
+from model import User, UserHero, UserSquad
+from common.dataUtils import obj_to_dict
 
 def get_all_user():
     # users = User.query.all()
