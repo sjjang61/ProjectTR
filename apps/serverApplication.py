@@ -85,8 +85,9 @@ def unhandled_exception(error):
     app.logger.error('Unhandled Exception: %s', (error))
     return render_template('500.htm'), 500
 
-# @app.route('/', methods=['GET'])
-# def index():
+@app.route('/', methods=['GET'])
+def index():
+    return "this is test"
 #     return render_template('index.html')
 
 if __name__ == '__main__':
