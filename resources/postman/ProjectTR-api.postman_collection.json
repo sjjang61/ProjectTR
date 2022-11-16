@@ -844,7 +844,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:29060/api/v1/match/",
+			"url": "http://{{host}}/api/v1/match/",
 			"folder": "2c153811-8487-2171-cb7c-b53752e3d5dc",
 			"queryParams": [],
 			"preRequestScript": "",
@@ -881,7 +881,7 @@
 			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1668470565183,
+			"time": 1668556271025,
 			"name": "select list",
 			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
 			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",
@@ -1035,16 +1035,9 @@
 		},
 		{
 			"id": "30045ec6-97d4-9b96-c75a-af2ce8f3789d",
-			"headers": "Authorization: Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"\n",
-			"headerData": [
-				{
-					"key": "Authorization",
-					"value": "Hawk id=\"dh37fgj492je\", ts=\"1668302446\", nonce=\"iio9ww\", mac=\"Aii5mMYPOwkPMktyHOarYE6IPGlV4CsTR31ihWwEwOU=\"",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "http://localhost:29060/api/v1/user/",
+			"headers": "",
+			"headerData": [],
+			"url": "http://{{host}}/api/v1/user/",
 			"folder": "034ceda0-1cd2-3557-db78-65a9847749e0",
 			"queryParams": [],
 			"preRequestScript": "",
@@ -1081,7 +1074,7 @@
 			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1668305628585,
+			"time": 1668556313291,
 			"name": "select list",
 			"description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK.",
 			"collectionId": "ea085ddc-a779-5cfd-fe13-a73d72581cd8",

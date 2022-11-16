@@ -67,3 +67,13 @@ export FLASK_ENV=development
 export FLASK_APP=serverApplication.py
 flask run
 
+## Trouble Shooting
+1. pip install mysqlclient in centos
+a) libmysqlclient.so 가 없음
+   - sudo find / -name libmysqlclient.so 로컬에 없음
+   - solution : yum install ariadb-devel
+
+b) gcc 오류
+    - yum install gcc gcc-c++
+c) python3-dev 설치
+    - yum install python3-devel.x86_64
